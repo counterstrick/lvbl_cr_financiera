@@ -1,40 +1,40 @@
-import { BarChart3, Cloud, Code2, Megaphone } from "lucide-react";
+import { Banknote, FileText, LineChart, ShieldCheck } from "lucide-react";
 
 const groups = [
   {
-    icon: BarChart3,
-    title: "Data & BI",
+    icon: FileText,
+    title: "Contabilidad & Reporting",
     skills: [
-      { name: "Power BI", level: 95 },
-      { name: "SQL / Modelado", level: 90 },
-      { name: "Reporting & KPIs", level: 92 },
+      { name: "NIIF / IFRS para PYMES", level: 95 },
+      { name: "Cierre contable mensual", level: 95 },
+      { name: "Estados Financieros", level: 92 },
     ],
   },
   {
-    icon: Cloud,
-    title: "Cloud & Infraestructura",
+    icon: ShieldCheck,
+    title: "Tributación & Cumplimiento",
     skills: [
-      { name: "Microsoft Azure", level: 85 },
-      { name: "Azure Virtual Desktop", level: 88 },
-      { name: "Networking & Telecom", level: 90 },
+      { name: "Planeación fiscal", level: 93 },
+      { name: "IVA, Renta & Retenciones", level: 96 },
+      { name: "Auditoría tributaria", level: 88 },
     ],
   },
   {
-    icon: Code2,
-    title: "Desarrollo Web",
+    icon: LineChart,
+    title: "Finanzas Corporativas",
     skills: [
-      { name: "WordPress / CMS", level: 92 },
-      { name: "SEO Técnico", level: 85 },
-      { name: "UX / Performance", level: 80 },
+      { name: "Modelado financiero", level: 90 },
+      { name: "Flujo de caja & Presupuesto", level: 94 },
+      { name: "Valoración de empresas", level: 85 },
     ],
   },
   {
-    icon: Megaphone,
-    title: "Marketing & Growth",
+    icon: Banknote,
+    title: "Tecnología Contable",
     skills: [
-      { name: "Campañas digitales", level: 82 },
-      { name: "Analytics & CRO", level: 85 },
-      { name: "Automatización", level: 80 },
+      { name: "QuickBooks / Siigo / Alegra", level: 92 },
+      { name: "Power BI Financiero", level: 88 },
+      { name: "Excel avanzado & Macros", level: 95 },
     ],
   },
 ];
@@ -48,7 +48,7 @@ const Skills = () => {
             Skills & Expertise
           </span>
           <h2 className="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-bold">
-            Stack que <span className="text-gradient-primary">resuelve problemas</span>.
+            Un stack que <span className="text-gradient-primary">cuida tu dinero</span>.
           </h2>
         </div>
 

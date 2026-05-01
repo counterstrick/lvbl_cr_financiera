@@ -31,7 +31,7 @@ const Navbar = () => {
       <nav className="container flex items-center justify-between">
         <a href="#inicio" className="font-display text-xl font-bold tracking-tight">
           <span className="text-gradient-primary">AR.</span>
-          <span className="text-foreground">dev</span>
+          <span className="text-foreground">finance</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-8">

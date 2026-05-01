@@ -3,40 +3,40 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Dashboard Ejecutivo BI",
-    desc: "Plataforma de reportes en tiempo real que redujo el tiempo de toma de decisiones en un 60%.",
-    tech: ["Power BI", "SQL", "Azure"],
-    tag: "Data & BI",
+    title: "Rescate Fiscal · Restaurante en quiebra técnica",
+    desc: "Reestructuración tributaria y acuerdo de pago que evitó cierre. Ahorro de $120K en multas e intereses.",
+    tech: ["Planeación Fiscal", "DIAN", "Negociación"],
+    tag: "Tributario",
   },
   {
-    title: "Migración a Azure Virtual Desktop",
-    desc: "Implementación cloud para 200+ usuarios con ahorro del 35% en infraestructura.",
-    tech: ["Azure", "AVD", "Networking"],
-    tag: "Cloud",
+    title: "CFO Externo · Startup SaaS Serie A",
+    desc: "Modelo financiero, board reports y due diligence. Cerraron ronda de USD $2.4M en 5 meses.",
+    tech: ["Modelado", "Forecasting", "Inversión"],
+    tag: "CFO",
   },
   {
-    title: "E-commerce Premium",
-    desc: "Tienda online optimizada para conversión, +180% en ventas durante el primer trimestre.",
-    tech: ["WordPress", "WooCommerce", "SEO"],
-    tag: "Web",
+    title: "Migración Contable a la Nube",
+    desc: "Implementación de Alegra + Power BI para constructora. Cierre mensual pasó de 18 a 3 días.",
+    tech: ["Alegra", "Power BI", "Automatización"],
+    tag: "Tech Contable",
   },
   {
-    title: "Automatización de Reportes",
-    desc: "Pipeline de datos automatizado que ahorra 40 horas mensuales al equipo financiero.",
-    tech: ["Power Automate", "SQL", "Excel"],
-    tag: "Data",
+    title: "Tablero Financiero en Tiempo Real",
+    desc: "Dashboard ejecutivo con P&L, cartera y flujo de caja. Decisiones que antes tardaban semanas hoy son del día.",
+    tech: ["Power BI", "Excel", "DAX"],
+    tag: "Reporting",
   },
   {
-    title: "Estrategia SEO Corporativa",
-    desc: "Crecimiento orgánico del 220% en 6 meses para empresa B2B del sector industrial.",
-    tech: ["SEO", "Analytics", "Content"],
-    tag: "Growth",
+    title: "Optimización Fiscal · Grupo Empresarial",
+    desc: "Reorganización societaria legal que redujo carga tributaria efectiva del 33% al 21%.",
+    tech: ["Holding", "Precios de Transferencia", "NIIF"],
+    tag: "Estrategia",
   },
   {
-    title: "Plataforma Web Institucional",
-    desc: "Rediseño completo con foco en UX y performance, Lighthouse score 98/100.",
-    tech: ["React", "Tailwind", "CMS"],
-    tag: "Web",
+    title: "Educación Financiera para Founders",
+    desc: "Programa de mentoría 1:1 para 35 emprendedores. Aprenden a leer sus números y dejar de improvisar.",
+    tech: ["Mentoring", "Workshops", "Coaching"],
+    tag: "Formación",
   },
 ];
 
@@ -47,15 +47,16 @@ const Projects = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
           <div className="max-w-2xl">
             <span className="text-xs uppercase tracking-[0.2em] text-primary font-semibold">
-              Portafolio
+              Casos de Éxito
             </span>
             <h2 className="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-bold">
-              Proyectos con <span className="text-gradient-primary">impacto medible</span>.
+              Proyectos donde los <span className="text-gradient-primary">números salvaron el negocio</span>.
             </h2>
           </div>
           <p className="text-muted-foreground max-w-md">
-            Una selección de soluciones donde tecnología, datos y estrategia
-            generaron resultados reales para el negocio.
+            Una selección de casos reales donde contabilidad, estrategia fiscal
+            y finanzas se tradujeron en rentabilidad y tranquilidad para mis
+            clientes.
           </p>
         </div>
 
@@ -97,7 +98,7 @@ const Projects = () => {
                 </div>
 
                 <Button variant="ghost-glow" size="sm" className="w-full justify-between">
-                  Ver Proyecto <ArrowUpRight className="size-4" />
+                  Ver Caso <ArrowUpRight className="size-4" />
                 </Button>
               </div>
             </article>

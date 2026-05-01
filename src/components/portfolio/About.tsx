@@ -1,10 +1,10 @@
-import { BarChart3, Globe, Rocket, Target } from "lucide-react";
+import { Calculator, FileSpreadsheet, ShieldCheck, TrendingUp } from "lucide-react";
 
 const items = [
-  { icon: BarChart3, title: "Análisis de Datos", text: "De datos crudos a insights accionables que impulsan el negocio." },
-  { icon: Globe, title: "Estrategia Digital", text: "Roadmaps tecnológicos alineados con objetivos de crecimiento." },
-  { icon: Rocket, title: "Desarrollo Web", text: "Sitios y plataformas rápidas, optimizadas y orientadas a conversión." },
-  { icon: Target, title: "Impacto Real", text: "Decisiones basadas en métricas y resultados medibles." },
+  { icon: Calculator, title: "Contabilidad Estratégica", text: "Llevo tus libros con precisión y los convierto en información útil para decidir." },
+  { icon: ShieldCheck, title: "Optimización Fiscal", text: "Pagas exactamente lo que debes pagar, ni un peso más. Cero sustos con la SAT/SUNAT/DIAN." },
+  { icon: TrendingUp, title: "Finanzas Corporativas", text: "Flujo de caja, presupuestos y proyecciones que sostienen el crecimiento." },
+  { icon: FileSpreadsheet, title: "CFO Externo", text: "Dirección financiera tercerizada para empresas que aún no necesitan un CFO full-time." },
 ];
 
 const About = () => {
@@ -16,15 +16,14 @@ const About = () => {
             Sobre mí
           </span>
           <h2 className="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
-            Tecnología con <span className="text-gradient-primary">propósito</span>,
-            datos con <span className="text-gradient-primary">estrategia</span>.
+            Contabilidad con <span className="text-gradient-primary">cabeza estratégica</span>,
+            finanzas con <span className="text-gradient-primary">mirada de dueño</span>.
           </h2>
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-            Soy Ingeniero en Sistemas y Telecomunicaciones con más de 8 años
-            ayudando a empresas a convertir su información en ventaja
-            competitiva. Combino análisis de datos, estrategia digital y
-            desarrollo web para entregar soluciones escalables con impacto
-            directo en el negocio.
+            Soy Contador Público Certificado con MBA en Finanzas y más de 12
+            años acompañando a empresas, emprendedores y profesionales a poner
+            sus números en orden y, sobre todo, a usarlos para crecer. No solo
+            registro tu pasado contable: diseño tu futuro financiero.
           </p>
         </div>
 
