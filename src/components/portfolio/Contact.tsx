@@ -26,10 +26,11 @@ const Contact = () => {
             Contacto
           </span>
           <h2 className="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-bold">
-            ¿Listo para <span className="text-gradient-primary">construir algo grande</span>?
+            Agenda tu <span className="text-gradient-primary">diagnóstico financiero gratuito</span>.
           </h2>
           <p className="mt-5 text-muted-foreground text-lg">
-            Cuéntame tu reto y te respondo en menos de 24 horas.
+            30 minutos · Cero compromiso · Te digo exactamente qué está
+            sangrando tu rentabilidad.
           </p>
         </div>
 
@@ -71,7 +72,7 @@ const Contact = () => {
                 id="message"
                 value={form.message}
                 onChange={(e) => setForm({ ...form, message: e.target.value })}
-                placeholder="Cuéntame sobre tu proyecto..."
+                placeholder="Cuéntame sobre tu empresa o tu situación financiera..."
                 rows={5}
                 className="bg-background border-border resize-none"
               />
@@ -111,7 +112,7 @@ const Contact = () => {
               </div>
             </a>
             <a
-              href="mailto:hola@alexrivera.dev"
+              href="mailto:contacto@alexrivera.finance"
               className="group flex items-center gap-4 p-5 rounded-2xl bg-card border border-border hover:border-primary/50 transition-all shadow-card"
             >
               <div className="size-12 rounded-xl bg-gradient-primary flex items-center justify-center shadow-glow">
@@ -119,7 +120,7 @@ const Contact = () => {
               </div>
               <div>
                 <div className="font-semibold">Email</div>
-                <div className="text-sm text-muted-foreground">hola@alexrivera.dev</div>
+                <div className="text-sm text-muted-foreground">contacto@alexrivera.finance</div>
               </div>
             </a>
           </div>

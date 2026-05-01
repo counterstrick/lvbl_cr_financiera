@@ -1,17 +1,17 @@
-import { CheckCircle2, TrendingUp, Users, Zap } from "lucide-react";
+import { CheckCircle2, PiggyBank, Receipt, ShieldCheck, TrendingUp } from "lucide-react";
 
 const problems = [
-  "Empresas que toman decisiones a ciegas por falta de datos consolidados.",
-  "Equipos que pierden horas en reportes manuales y repetitivos.",
-  "Webs lentas, sin SEO y sin estrategia de conversión.",
-  "Infraestructura tecnológica costosa, rígida y poco escalable.",
+  "Empresarios que no saben si están ganando o perdiendo dinero realmente.",
+  "Pagos de impuestos excesivos por falta de planeación fiscal.",
+  "Contabilidad atrasada, desordenada y sin valor para tomar decisiones.",
+  "Flujo de caja apretado mientras el Estado de Resultados muestra utilidad.",
 ];
 
 const stats = [
-  { icon: TrendingUp, k: "+220%", v: "Crecimiento orgánico promedio" },
-  { icon: Zap, k: "-60%", v: "Tiempo en toma de decisiones" },
-  { icon: Users, k: "+200", v: "Usuarios migrados a cloud" },
-  { icon: CheckCircle2, k: "98/100", v: "Lighthouse performance" },
+  { icon: PiggyBank, k: "$8M+", v: "Ahorro fiscal generado a clientes" },
+  { icon: TrendingUp, k: "+34%", v: "Margen neto promedio recuperado" },
+  { icon: Receipt, k: "100%", v: "Cumplimiento tributario garantizado" },
+  { icon: ShieldCheck, k: "0", v: "Sanciones tributarias en 12 años" },
 ];
 
 const Value = () => {
@@ -25,12 +25,13 @@ const Value = () => {
               Propuesta de Valor
             </span>
             <h2 className="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
-              No vendo currículum. <br />
-              <span className="text-gradient-primary">Resuelvo problemas.</span>
+              No vendo balances. <br />
+              <span className="text-gradient-primary">Protejo tu dinero.</span>
             </h2>
             <p className="mt-6 text-muted-foreground text-lg">
-              Ayudo a empresas, startups y equipos directivos a convertir
-              tecnología en crecimiento, eficiencia y ventaja competitiva.
+              Acompaño a empresas, emprendedores y profesionales a tener
+              claridad financiera, pagar lo justo en impuestos y construir
+              negocios verdaderamente rentables.
             </p>
 
             <ul className="mt-8 space-y-4">

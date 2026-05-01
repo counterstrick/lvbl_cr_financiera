@@ -1,4 +1,4 @@
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight, Calculator } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profile from "@/assets/profile.jpg";
 import heroBg from "@/assets/hero-bg.jpg";
@@ -10,7 +10,7 @@ const Hero = () => {
       className="relative min-h-screen flex items-center pt-28 pb-20 overflow-hidden"
     >
       <div
-        className="absolute inset-0 -z-10 opacity-40"
+        className="absolute inset-0 -z-10 opacity-30"
         style={{
           backgroundImage: `url(${heroBg})`,
           backgroundSize: "cover",
@@ -24,48 +24,48 @@ const Hero = () => {
         <div className="animate-fade-in-up">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-border bg-card/60 text-xs font-medium text-muted-foreground mb-6">
             <span className="size-2 rounded-full bg-primary animate-glow-pulse" />
-            Disponible para nuevos proyectos
+            Aceptando nuevos clientes · Temporada fiscal abierta
           </span>
 
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.05] tracking-tight">
             <span className="text-gradient">Alex Rivera</span>
             <br />
-            <span className="text-gradient-primary">Datos & Estrategia</span>
+            <span className="text-gradient-primary">Contabilidad & Finanzas</span>
             <br />
-            <span className="text-foreground">Digital.</span>
+            <span className="text-foreground">Estratégicas.</span>
           </h1>
 
           <p className="mt-5 text-base sm:text-lg text-muted-foreground max-w-xl">
-            Ingeniero en Sistemas y Telecomunicaciones · Líder en Soluciones de
-            Datos y Digital.
+            Contador Público Certificado · Asesor Financiero & Fiscal para
+            empresas, startups y profesionales independientes.
           </p>
 
           <p className="mt-3 text-lg sm:text-xl text-foreground/90 max-w-xl">
-            "Transformo datos y tecnología en{" "}
+            "Convierto tus{" "}
             <span className="text-gradient-primary font-semibold">
-              decisiones estratégicas
+              números en decisiones
             </span>{" "}
-            y soluciones escalables."
+            que hacen crecer tu patrimonio."
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
             <Button asChild size="lg" variant="hero">
               <a href="#proyectos">
-                Ver Proyectos <ArrowRight className="size-4" />
+                Ver Servicios <ArrowRight className="size-4" />
               </a>
             </Button>
             <Button asChild size="lg" variant="outline-glow">
               <a href="#contacto">
-                Contáctame <Download className="size-4" />
+                Diagnóstico Gratis <Calculator className="size-4" />
               </a>
             </Button>
           </div>
 
           <div className="mt-10 grid grid-cols-3 gap-6 max-w-md">
             {[
-              { k: "+8", v: "Años exp." },
-              { k: "+40", v: "Proyectos" },
-              { k: "15+", v: "Clientes" },
+              { k: "+12", v: "Años exp." },
+              { k: "+180", v: "Empresas asesoradas" },
+              { k: "$8M+", v: "Ahorro fiscal generado" },
             ].map((s) => (
               <div key={s.v}>
                 <div className="font-display text-2xl font-bold text-gradient-primary">
@@ -83,18 +83,18 @@ const Hero = () => {
             <div className="absolute -inset-1 bg-gradient-primary rounded-3xl blur opacity-60" />
             <img
               src={profile}
-              alt="Alex Rivera, Ingeniero en Sistemas y Líder Digital"
+              alt="Alex Rivera, Contador Público y Asesor Financiero"
               width={520}
               height={620}
               className="relative rounded-3xl w-72 sm:w-80 lg:w-[420px] aspect-[4/5] object-cover shadow-elegant animate-float"
             />
             <div className="absolute -bottom-6 -left-6 glass border border-border/60 rounded-2xl p-4 shadow-card hidden sm:block">
               <div className="text-xs text-muted-foreground">Especialidad</div>
-              <div className="font-semibold text-sm">Power BI · Azure</div>
+              <div className="font-semibold text-sm">Fiscal · NIIF · CFO</div>
             </div>
             <div className="absolute -top-6 -right-4 glass border border-border/60 rounded-2xl p-4 shadow-card hidden sm:block">
               <div className="text-xs text-muted-foreground">Enfoque</div>
-              <div className="font-semibold text-sm">Data → Decisiones</div>
+              <div className="font-semibold text-sm">Números → Rentabilidad</div>
             </div>
           </div>
         </div>
